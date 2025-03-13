@@ -1,9 +1,12 @@
+import { cardsData } from './data';
+import Container from './components/Container/Container';
+
 export default function App() {
   return (
-    <main>
-      <div className="container">
-        <h1>React Version of 3-Column Card Component</h1>
-      </div>
-    </main>
+    <div>
+      <main>
+        <Container cardsData={cardsData} />
+      </main>
+    </div>
   );
 }

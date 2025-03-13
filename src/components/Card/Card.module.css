@@ -1,0 +1,46 @@
+.card {
+  max-width: 307px;
+  width: 100%;
+  height: auto;
+}
+
+/* .card-one {
+  background-color: #e28625;
+}
+
+.card-two {
+  background-color: #006971;
+}
+
+.card-three {
+  background-color: #004140;
+} */
+
+.cardContent {
+  display: grid;
+  align-items: center;
+  justify-content: left;
+  padding: 48px;
+  gap: 40px;
+}
+
+.cardTitle {
+  color: #f2f2f2;
+  text-align: left;
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+.cardDescription {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  opacity: 75%;
+  padding-bottom: 20px;
+}

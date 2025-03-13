@@ -1,0 +1,54 @@
+.btn {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 25px;
+  max-width: 146px;
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  padding: 13px 29px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Sedan Button */
+.btn-sedans {
+  border: 2px solid transparent;
+  color: #e28625;
+}
+
+.btn-sedans:hover {
+  background-color: #e28625;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* SUV Button */
+.btn-suvs {
+  border: 2px solid transparent;
+  color: #006971;
+}
+
+.btn-suvs:hover {
+  background-color: #006971;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* Luxury Button */
+.btn-luxury {
+  border: 2px solid transparent;
+  color: #004140;
+}
+
+.btn-luxury:hover {
+  background-color: #004140;
+  border-color: #ffffff;
+  color: #ffffff;
+}
